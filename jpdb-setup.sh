@@ -79,7 +79,7 @@ then
 echo "storage-mode.properties file exists"
 else
 touch storage-mode.properties
-echo "jpdb.storage.type=2" >> storage-mode.properties
+echo "jpdb.storage.type=1" >> storage-mode.properties
 echo "jpdb.sxarray.name=sxarr" >> storage-mode.properties
 echo "jpdb.sxarray.size=1000000" >> storage-mode.properties
 echo "jpdb.sxarray.loadfactor=0.5" >> storage-mode.properties
